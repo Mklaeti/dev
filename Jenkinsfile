@@ -6,19 +6,19 @@ pipeline {
 
     stage("build") {
       steps {
-        echo 'building the application...'
+        echo 'building Fullstack application...'
       }
     }
 
     stage("test") {
       steps {
-        echo 'testing the application...'
+        echo 'testing Fullstack application...'
       }
     }
 
     stage("deploy") {
       steps {
-        echo 'deploying the application...'
+        echo 'deploying Fullstack application...'
       }
     }
 
